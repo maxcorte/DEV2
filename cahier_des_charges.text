@@ -1,0 +1,55 @@
+
+Project Specification - 3D Ant Colony Simulation
+1. Introduction
+1.1 Context
+Mr. Fourmillion is an ant enthusiast working at a museum. He wants to develop a 3D ant colony simulation application. This application should allow for the creation and management of an ant colony with configurable parameters, such as adding ants, galleries, food, etc.
+
+1.2 Objective
+The goal of this project is to design and develop a Python application capable of simulating a 3D ant colony. The simulation should provide a realistic and interactive environment. The ants should exhibit autonomous behavior through artificial intelligence (AI) algorithms and adhere to traditional roles within the colony (workers, queen, etc.).
+
+2. Functional Specifications
+2.1 Minimum Viable Product (MVP)
+The MVP for our project includes:
+
+Placing an ant in a filled square, representing the initial environment.
+Implementing a clock to keep track of the passage of time.
+Each day, ants have a chance to die and collect food.
+Allowing ants to move and dig automatically, but without accounting for gravity.
+The absence of a graphical user interface (GUI). The code should be launched with parameters.
+Allowing the client to interact with the number of ants and the amount of available food.
+2.2 Colony Simulation
+3D Environment: The application should present a 3D simulation of the ant colony with a graphical user interface.
+
+Adding Ants: Users should be able to add new ants to the colony.
+
+Galleries and Food: Users should be able to create galleries and distribute food in the environment.
+
+Ant AI: Ants should be equipped with AI algorithms to enable them to move, search for food, interact with the environment, and fulfill their specific roles.
+
+Ant Roles: Ants should adhere to their roles within the colony (workers, queen, etc.) with role-specific behaviors.
+
+Pheromones: Ants should emit pheromones to communicate with each other and mark paths.
+
+2.3 Time Management
+Clock: The application should implement a clock to track the passage of days in the simulation.
+
+Probability of Death: Each day, ants should have a probability of dying, simulating the natural life cycle of ants.
+
+Finding Food: Each day, there should be a probability for ants to find food.
+
+Time Acceleration: Users should be able to accelerate the passage of time to observe the colony's evolution at different speeds.
+
+3. Programming Language
+The project will be developed using the Python programming language.
+
+4. Agile Planning
+The project will follow an agile development methodology, allowing for iterative iterations and continuous adjustments based on client needs.
+
+5. Technical Constraints
+The application must be compatible with common operating systems (Windows, macOS, Linux).
+The Python libraries and modules used must be well-documented.
+6. Monitoring and Validation
+The client, Mr. Fourmillion, will be involved in the development process to provide regular feedback and validation.
+
+7. Conclusion
+This project specification outlines the requirements for a 3D ant colony simulation. The MVP includes a basic simulation with a single ant, a clock, time management, and minimal interactions. The project will be executed by the "2TL2-6" group over a 7-week period, following an agile methodology for flexibility.

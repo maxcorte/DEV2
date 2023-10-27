@@ -1,0 +1,4 @@
+La MVP de notre projet consistera à placer une fourmi dans un carrée plein.
+Une horloge sera mise en place pour voir le temps qui passe et ,chaque jour, la fourmi aura une chance de mourir et de récupérer de la nourriture.
+La fourmi avance et creuse toute seule mais elle n'est pas envore soumise à la gravité.
+Le client pourra intéragir avec le nombre de fourmi et la quantité de nourriture à disposition.
